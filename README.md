@@ -8,11 +8,19 @@ Codes for `Recriando o jogo da cobrinha com JavaScript`
 
 [maxdevjs.github.io/learn-dio-cobrinha](https://maxdevjs.github.io/learn-dio-cobrinha/)
 
-### Credits
+### How to play
+
+`← ↑ → ↓`
+
+## Resources
+
+## Credits
+
+### Original author
 
 [SpruceGabriela/snake-the-game](https://github.com/SpruceGabriela/snake-the-game)
 
-### TODO
+## TODO
 
 - [ ]
 - [ ] menu/instructions
