@@ -17,12 +17,12 @@ snake[0] = {
 let direction = 'right'
 
 const createBG = () => {
-  context.fillStyle = 'lightgreen'
+  context.fillStyle = '#000'
   context.fillRect(0, 0, 16 * box, 16 * box)
 }
 
 const createGrid = () => {
-  context.strokeStyle = 'green'
+  context.strokeStyle = '#BFF128'
   for (let x = box; x < 16 * box; x += box) {
     context.beginPath()
     context.moveTo(x, 0)
@@ -39,13 +39,13 @@ const createGrid = () => {
 
 const createSnake = () => {
   for (let i = 0; i < snake.length; i++) {
-    context.fillStyle = 'green'
+    context.fillStyle = '#5D21D0'
     context.fillRect(snake[i].x, snake[i].y, box, box)
   }
 }
 
 const createFood = () => {
-  context.fillStyle = 'red'
+  context.fillStyle = '#BFF128'
   context.fillRect(food.x, food.y, box, box)
 }
 
